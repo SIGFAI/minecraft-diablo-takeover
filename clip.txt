@@ -1,0 +1,7 @@
+Moments the clip must show:
+[x] 1. Title "DIABLO TAKEOVER" at dusk; a horde of red-capped Fallen runs at the player.
+[x] 2. The player fights: damage numbers float up, blood bursts, Whirlwind spin hits a pack.
+[x] 3. Kills drop glowing loot (gold, health globes, scroll); globes heal on touch and the globe HUD refills.
+[x] 4. The Butcher boss with a boss bar ("Ahhh, fresh meat!") is killed (about 45 s in).
+[x] 5. Cow level: glowing Hell Bovines charge; Town Portal opens; Diablo appears.
+Weak: loot beams are hard to see in the small window; the camera can be crowded by tall bosses.
