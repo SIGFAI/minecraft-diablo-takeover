@@ -82,5 +82,7 @@
     "ram_gb": 2,
     "max_players": 10,
     "pack": "minecraft-diablo-takeover.mrpack"
-  }
+  },
+  "listed": false,
+  "unlisted_reason": "Only playable in the stream demo for now: a player mode for this kit is coming."
 }
