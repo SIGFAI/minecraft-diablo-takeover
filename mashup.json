@@ -1,8 +1,15 @@
 {
   "id": "sigf/minecraft-diablo-takeover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Diablo Takeover",
   "tagline": "Bring Diablo into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Survive endless demon hordes and champion monsters that keep spawning in front of you.",
+    "Kill champions and rare monsters for gold, Health Globes, Town Portal scrolls and sometimes the Doombringer sword.",
+    "Right-click Doombringer for Whirlwind, a Health Globe to heal fully, or a Town Portal scroll to open a portal to spawn.",
+    "Walk over a dropped Health Globe to drink it instantly.",
+    "It starts as soon as you join, at dusk, inside a ring of burning braziers."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -30,10 +37,13 @@
       "strategy": "mrpack",
       "pack": {
         "src": "minecraft-diablo-takeover.mrpack",
-        "url": "https://github.com/SIGFAI/minecraft-diablo-takeover/releases/download/v1.0.0/minecraft-diablo-takeover.mrpack",
-        "sha256": "aae65716cb2f2c990de6148c378480acfa373f8567ef79c4ff180ba2e41fe8d0",
-        "size": 184698
-      }
+        "url": "https://github.com/SIGFAI/minecraft-diablo-takeover/releases/download/v1.0.1/minecraft-diablo-takeover.mrpack",
+        "sha256": "5a7f6f8cf93959c22a623771d9d17c784fb6c7279616510f3f49e13ac2ff7f98",
+        "size": 184825
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
     }
   ],
   "launch": [
@@ -45,9 +55,9 @@
   "files": [
     {
       "name": "minecraft-diablo-takeover.mrpack",
-      "url": "https://github.com/SIGFAI/minecraft-diablo-takeover/releases/download/v1.0.0/minecraft-diablo-takeover.mrpack",
-      "sha256": "aae65716cb2f2c990de6148c378480acfa373f8567ef79c4ff180ba2e41fe8d0",
-      "size": 184698
+      "url": "https://github.com/SIGFAI/minecraft-diablo-takeover/releases/download/v1.0.1/minecraft-diablo-takeover.mrpack",
+      "sha256": "5a7f6f8cf93959c22a623771d9d17c784fb6c7279616510f3f49e13ac2ff7f98",
+      "size": 184825
     }
   ],
   "source": {
@@ -64,7 +74,7 @@
     "id": "minecraft",
     "status": "draft"
   },
-  "built_at": "2026-10-05T18:56:57.199Z",
+  "built_at": "2026-10-05T21:59:16.934Z",
   "server": {
     "game": "minecraft",
     "mc": "26.3",
@@ -72,8 +82,5 @@
     "ram_gb": 2,
     "max_players": 10,
     "pack": "minecraft-diablo-takeover.mrpack"
-  },
-  "notes": [
-    "Install Fabric Loader and Fabric API for Minecraft Java 26.3, then drop the Diablo Takeover mod jar into your mods folder. Start a world: night falls, demons attack, and the Doombringer sword (right-click for Whirlwind) drops from bosses."
-  ]
+  }
 }
